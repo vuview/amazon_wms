@@ -9,7 +9,7 @@
             $obj = new AmazonReport("myStore");
             $obj->setReportId($reportId);
             $obj->fetchReport();
-            $obj->saveReport("report_".$reportId."csv");
+            $obj->saveReport("report_".$reportId.".csv");
             //echo $obj->getRawReport();
 
 
